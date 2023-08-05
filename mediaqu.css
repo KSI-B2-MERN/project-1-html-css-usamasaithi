@@ -1,0 +1,64 @@
+
+
+
+/*
+@media screen and (max-width: 990){
+    .id {
+        display: block;
+        margin: 10px;
+
+    } 
+
+    .box {
+        display: block;
+        margin: 20px;
+width: 500px;
+height: 5000px;
+    }
+    .box1 {
+        width: 500px;
+        height: 180px;
+    }
+}
+*/
+
+@media (max-width: 775em)
+{
+.html {
+        font-size: 60%;
+}
+}
+html 
+{
+    display: block;
+}
+
+header {
+    display: block;
+    overflow: hidden;
+}
+
+@media (width<= 300px){
+    .html{ 
+font-size: 60%;
+display: block;
+}
+}
+
+@media (max-width: 1200px){
+    .html{
+font-size: 60%;
+display: block;
+    }
+}
+
+
+html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+        box-sizing: inherit;
+}
